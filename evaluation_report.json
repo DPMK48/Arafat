@@ -1,0 +1,225 @@
+{
+  "test_pages_evaluated": 20,
+  "proposed_model": {
+    "name": "TrOCR (Fine-Tuned)",
+    "cer": 0.0004,
+    "wer": 0.0019,
+    "field_accuracy_pct": 95.32,
+    "avg_processing_time_sec": 0.17
+  },
+  "baseline_model": {
+    "name": "Tesseract OCR",
+    "cer": 0.0839,
+    "wer": 0.6193,
+    "field_accuracy_pct": 49.6,
+    "avg_processing_time_sec": 1.25
+  },
+  "baseline_improvement": {
+    "cer_reduction_pct": 99.52,
+    "wer_reduction_pct": 99.69,
+    "field_accuracy_gain_pct": 45.72,
+    "speedup_factor": 7.35
+  },
+  "per_page_breakdown": [
+    {
+      "page_id": "broadsheet_authentic_025",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.1087,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.16
+    },
+    {
+      "page_id": "broadsheet_authentic_026",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.1077,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.18
+    },
+    {
+      "page_id": "broadsheet_authentic_027",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0896,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.17
+    },
+    {
+      "page_id": "broadsheet_authentic_028",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0846,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.16
+    },
+    {
+      "page_id": "broadsheet_authentic_029",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.087,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.17
+    },
+    {
+      "page_id": "broadsheet_authentic_030",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0602,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.16
+    },
+    {
+      "page_id": "transcript_authentic_017",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.008,
+      "baseline_cer": 0.08,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.2
+    },
+    {
+      "page_id": "transcript_authentic_018",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0887,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.15
+    },
+    {
+      "page_id": "transcript_authentic_019",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0738,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.18
+    },
+    {
+      "page_id": "transcript_authentic_020",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.08,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.19
+    },
+    {
+      "page_id": "broadsheet_simulated_025",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0859,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.16
+    },
+    {
+      "page_id": "broadsheet_simulated_026",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0845,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.14
+    },
+    {
+      "page_id": "broadsheet_simulated_027",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0809,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.15
+    },
+    {
+      "page_id": "broadsheet_simulated_028",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0602,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.17
+    },
+    {
+      "page_id": "broadsheet_simulated_029",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.1087,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.17
+    },
+    {
+      "page_id": "broadsheet_simulated_030",
+      "document_type": "result_broadsheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.097,
+      "proposed_accuracy": 94.8,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.19
+    },
+    {
+      "page_id": "transcript_simulated_017",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0859,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.13
+    },
+    {
+      "page_id": "transcript_simulated_018",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0775,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.17
+    },
+    {
+      "page_id": "transcript_simulated_019",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0476,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.14
+    },
+    {
+      "page_id": "transcript_simulated_020",
+      "document_type": "transcript_sheet",
+      "degradation": "medium",
+      "proposed_cer": 0.0,
+      "baseline_cer": 0.0887,
+      "proposed_accuracy": 96.1,
+      "baseline_accuracy": 49.6,
+      "proposed_time_sec": 0.16
+    }
+  ]
+}

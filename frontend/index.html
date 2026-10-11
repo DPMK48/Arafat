@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATBU Academic Records OCR Digitization System</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand-title">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        ATBU OCR
+      </div>
+      <div class="brand-subtitle">Legacy Digitization</div>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a class="nav-item active" data-tab="dashboard">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Dashboard
+        </a>
+      </li>
+      <li>
+        <a class="nav-item" data-tab="upload">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          Upload Scans
+        </a>
+      </li>
+      <li>
+        <a class="nav-item" data-tab="results">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          Processing Results
+        </a>
+      </li>
+      <li>
+        <a class="nav-item" data-tab="review">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          Review & Correction
+        </a>
+      </li>
+      <li>
+        <a class="nav-item" data-tab="records">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          Academic Records
+        </a>
+      </li>
+      <li>
+        <a class="nav-item" data-tab="search">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          Search Records
+        </a>
+      </li>
+      <li>
+        <a class="nav-item" data-tab="evaluation">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
+          Evaluation Benchmark
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- Main Content Wrapper -->
+  <div class="main-wrapper">
+    <header class="top-bar">
+      <h1 class="page-title" id="page-title">Dashboard</h1>
+      <div class="top-actions">
+        <button class="btn btn-outline btn-sm" id="btn-seed">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+          Seed Demo Records
+        </button>
+      </div>
+    </header>
+
+    <main class="content-container">
+      <div id="alert-box"></div>
+
+      <!-- VIEW: DASHBOARD -->
+      <section id="view-dashboard" class="view-panel">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div>
+              <div class="metric-label">Total Documents</div>
+              <div class="metric-value" id="stat-docs">0</div>
+            </div>
+            <div class="metric-icon-box">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div>
+              <div class="metric-label">Digitized Students</div>
+              <div class="metric-value" id="stat-students">0</div>
+            </div>
+            <div class="metric-icon-box">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div>
+              <div class="metric-label">Course Results</div>
+              <div class="metric-value" id="stat-results">0</div>
+            </div>
+            <div class="metric-icon-box">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div>
+              <div class="metric-label">Pending Reviews</div>
+              <div class="metric-value" id="stat-reviews">0</div>
+            </div>
+            <div class="metric-icon-box">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Recent Legacy Documents</h2>
+            <button class="btn btn-primary btn-sm" onclick="switchTab('upload')">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              Upload Document
+            </button>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Filename</th>
+                  <th>Document Type</th>
+                  <th>Status</th>
+                  <th>Upload Date</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="dashboard-recent-table">
+                <tr><td colspan="6" style="text-align:center; padding:24px; color:var(--text-muted)">Loading documents...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: UPLOAD -->
+      <section id="view-upload" class="view-panel" style="display:none;">
+        <div class="card" style="max-width: 650px; margin: 0 auto;">
+          <div class="card-header">
+            <h2 class="card-title">Upload Legacy Academic Record</h2>
+          </div>
+          <form id="upload-form">
+            <div class="form-group">
+              <label>Select Document File (Scanned Image or PDF)</label>
+              <input type="file" id="upload-file" accept="image/*,.pdf" required>
+            </div>
+            <div class="form-group">
+              <label>Document Classification</label>
+              <select id="upload-doc-type">
+                <option value="result_broadsheet">Departmental Result Broadsheet</option>
+                <option value="transcript_sheet">Student Academic Transcript Sheet</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btn-upload-submit">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+              Upload Record
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- VIEW: RESULTS -->
+      <section id="view-results" class="view-panel" style="display:none;">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Document Inspection & Extraction Results</h2>
+            <div style="display:flex; gap:10px;">
+              <select id="results-doc-select" style="min-width: 280px;"></select>
+              <button class="btn btn-primary btn-sm" id="btn-reprocess">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>
+                Process Document
+              </button>
+            </div>
+          </div>
+
+          <div class="preview-grid" id="preview-grid-container">
+            <div class="preview-box">
+              <div class="preview-header">Original Scanned Document</div>
+              <img id="img-original" class="preview-img" src="" alt="Original Scan">
+            </div>
+            <div class="preview-box">
+              <div class="preview-header">OpenCV Preprocessed (Deskewed & Binarized)</div>
+              <img id="img-preprocessed" class="preview-img" src="" alt="Preprocessed Scan">
+            </div>
+            <div class="preview-box">
+              <div class="preview-header">Layout & Table Structure Analysis</div>
+              <img id="img-layout" class="preview-img" src="" alt="Detected Layout Overlay">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Extracted Academic Fields</h2>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Field</th>
+                  <th>Extracted Value</th>
+                  <th>Confidence</th>
+                  <th>Validation Status</th>
+                  <th>Notes</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="results-fields-table">
+                <tr><td colspan="6" style="text-align:center; padding:24px; color:var(--text-muted)">Select a document above to view extracted fields.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: REVIEW & CORRECTION -->
+      <section id="view-review" class="view-panel" style="display:none;">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Fields Requiring Staff Verification</h2>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Document ID</th>
+                  <th>Field Name</th>
+                  <th>Recognized Value</th>
+                  <th>Confidence</th>
+                  <th>Issue Flagged</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="review-pending-table">
+                <tr><td colspan="6" style="text-align:center; padding:24px; color:var(--text-muted)">No pending fields requiring review.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: ACADEMIC RECORDS -->
+      <section id="view-records" class="view-panel" style="display:none;">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Digitized University Academic Records</h2>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Reg Number</th>
+                  <th>Student Name</th>
+                  <th>Course</th>
+                  <th>Credit</th>
+                  <th>Score</th>
+                  <th>Grade</th>
+                  <th>Session</th>
+                  <th>Semester</th>
+                </tr>
+              </thead>
+              <tbody id="records-table">
+                <tr><td colspan="8" style="text-align:center; padding:24px; color:var(--text-muted)">Loading records...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: SEARCH -->
+      <section id="view-search" class="view-panel" style="display:none;">
+        <div class="card">
+          <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Search by Student Name, Reg No, or Course Code...">
+            <button class="btn btn-primary" id="btn-search-exec">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              Search
+            </button>
+          </div>
+
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Reg Number</th>
+                  <th>Student Name</th>
+                  <th>Department</th>
+                  <th>Course</th>
+                  <th>Score</th>
+                  <th>Grade</th>
+                  <th>Session</th>
+                  <th>Semester</th>
+                </tr>
+              </thead>
+              <tbody id="search-results-table">
+                <tr><td colspan="8" style="text-align:center; padding:24px; color:var(--text-muted)">Enter a student name or registration number to search.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: EVALUATION -->
+      <section id="view-evaluation" class="view-panel" style="display:none;">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Empirical Evaluation on Held-Out Test Set (20 Pages)</h2>
+            <button class="btn btn-primary btn-sm" id="btn-run-eval">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Run Benchmark Evaluation
+            </button>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div>
+                <div class="metric-label">TrOCR CER</div>
+                <div class="metric-value" id="eval-trocr-cer">--</div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div>
+                <div class="metric-label">Tesseract CER (Baseline)</div>
+                <div class="metric-value" id="eval-base-cer">--</div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div>
+                <div class="metric-label">CER Error Reduction</div>
+                <div class="metric-value" style="color:var(--success)" id="eval-cer-gain">--</div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div>
+                <div class="metric-label">Field Accuracy</div>
+                <div class="metric-value" style="color:var(--primary)" id="eval-field-acc">--</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Proposed Pipeline (TrOCR)</th>
+                  <th>Baseline Engine (Tesseract)</th>
+                  <th>Measured Improvement</th>
+                </tr>
+              </thead>
+              <tbody id="eval-comparison-table">
+                <tr><td colspan="4" style="text-align:center; padding:20px; color:var(--text-muted)">Loading evaluation report...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Field Correction Modal -->
+  <div class="modal-overlay" id="edit-modal" style="display:none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Correct Uncertain Field</h3>
+        <button class="btn btn-outline btn-sm" onclick="closeEditModal()">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <form id="edit-form">
+        <input type="hidden" id="edit-field-id">
+        <div class="form-group">
+          <label>Field Name</label>
+          <input type="text" id="edit-field-name" disabled>
+        </div>
+        <div class="form-group">
+          <label>Corrected Field Value</label>
+          <input type="text" id="edit-field-val" required>
+        </div>
+        <div class="form-group">
+          <label>Staff Verification Reason</label>
+          <input type="text" id="edit-reason" value="Verified against physical university archive sheet">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline" onclick="closeEditModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Correction</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

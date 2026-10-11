@@ -1,0 +1,196 @@
+{
+  "page_id": "transcript_simulated_020",
+  "image_file": "transcript_simulated_020.png",
+  "document_type": "transcript_sheet",
+  "category": "simulated",
+  "student_name": "GARBA, SULAIMAN",
+  "reg_no": "19/51918U/1",
+  "session": "2018/2019",
+  "semester": "First Semester",
+  "faculty": "Faculty of Computing",
+  "department": "Department of Computer Science",
+  "degree": "B.Tech. (Hons) Computer Science",
+  "gpa": 4.15,
+  "results": [
+    {
+      "sn": 1,
+      "course_code": "CSC 303",
+      "course_title": "Operating Systems",
+      "credit_unit": 3,
+      "score": 57,
+      "grade": "C",
+      "grade_points": 9.0,
+      "bbox": [
+        60,
+        360,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 2,
+      "course_code": "GST 101",
+      "course_title": "Use of English and Communication",
+      "credit_unit": 2,
+      "score": 63,
+      "grade": "B",
+      "grade_points": 8.0,
+      "bbox": [
+        60,
+        405,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 3,
+      "course_code": "CSC 301",
+      "course_title": "Data Structures & Algorithms",
+      "credit_unit": 3,
+      "score": 85,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        450,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 4,
+      "course_code": "CSC 302",
+      "course_title": "Database Design & Management",
+      "credit_unit": 3,
+      "score": 88,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        495,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 5,
+      "course_code": "CSC 101",
+      "course_title": "Introduction to Computer Science",
+      "credit_unit": 3,
+      "score": 66,
+      "grade": "B",
+      "grade_points": 12.0,
+      "bbox": [
+        60,
+        540,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 6,
+      "course_code": "MTH 102",
+      "course_title": "Elementary Mathematics II (Algebra)",
+      "credit_unit": 3,
+      "score": 63,
+      "grade": "B",
+      "grade_points": 12.0,
+      "bbox": [
+        60,
+        585,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 7,
+      "course_code": "GST 102",
+      "course_title": "Philosophy and Logic",
+      "credit_unit": 2,
+      "score": 80,
+      "grade": "A",
+      "grade_points": 10.0,
+      "bbox": [
+        60,
+        630,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 8,
+      "course_code": "PHY 102",
+      "course_title": "General Physics II (Electricity)",
+      "credit_unit": 3,
+      "score": 82,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        675,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 9,
+      "course_code": "PHY 101",
+      "course_title": "General Physics I (Mechanics)",
+      "credit_unit": 3,
+      "score": 55,
+      "grade": "C",
+      "grade_points": 9.0,
+      "bbox": [
+        60,
+        720,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 10,
+      "course_code": "CSC 202",
+      "course_title": "Computer Programming II",
+      "credit_unit": 3,
+      "score": 49,
+      "grade": "D",
+      "grade_points": 6.0,
+      "bbox": [
+        60,
+        765,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 11,
+      "course_code": "CSC 102",
+      "course_title": "Introduction to Problem Solving",
+      "credit_unit": 3,
+      "score": 88,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        810,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 12,
+      "course_code": "CSC 204",
+      "course_title": "Computer Architecture & Organization",
+      "credit_unit": 3,
+      "score": 88,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        855,
+        1080,
+        45
+      ]
+    }
+  ]
+}

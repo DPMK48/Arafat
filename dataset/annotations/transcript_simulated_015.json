@@ -1,0 +1,196 @@
+{
+  "page_id": "transcript_simulated_015",
+  "image_file": "transcript_simulated_015.png",
+  "document_type": "transcript_sheet",
+  "category": "simulated",
+  "student_name": "KASIM, YUSUF",
+  "reg_no": "18/45442U/1",
+  "session": "2021/2022",
+  "semester": "Second Semester",
+  "faculty": "Faculty of Computing",
+  "department": "Department of Computer Science",
+  "degree": "B.Tech. (Hons) Computer Science",
+  "gpa": 4.56,
+  "results": [
+    {
+      "sn": 1,
+      "course_code": "CSC 304",
+      "course_title": "Systems Analysis and Design",
+      "credit_unit": 3,
+      "score": 46,
+      "grade": "D",
+      "grade_points": 6.0,
+      "bbox": [
+        60,
+        360,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 2,
+      "course_code": "CSC 101",
+      "course_title": "Introduction to Computer Science",
+      "credit_unit": 3,
+      "score": 80,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        405,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 3,
+      "course_code": "CSC 302",
+      "course_title": "Database Design & Management",
+      "credit_unit": 3,
+      "score": 94,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        450,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 4,
+      "course_code": "GST 102",
+      "course_title": "Philosophy and Logic",
+      "credit_unit": 2,
+      "score": 85,
+      "grade": "A",
+      "grade_points": 10.0,
+      "bbox": [
+        60,
+        495,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 5,
+      "course_code": "CSC 202",
+      "course_title": "Computer Programming II",
+      "credit_unit": 3,
+      "score": 67,
+      "grade": "B",
+      "grade_points": 12.0,
+      "bbox": [
+        60,
+        540,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 6,
+      "course_code": "MTH 102",
+      "course_title": "Elementary Mathematics II (Algebra)",
+      "credit_unit": 3,
+      "score": 66,
+      "grade": "B",
+      "grade_points": 12.0,
+      "bbox": [
+        60,
+        585,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 7,
+      "course_code": "CSC 203",
+      "course_title": "Discrete Mathematical Structures",
+      "credit_unit": 3,
+      "score": 94,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        630,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 8,
+      "course_code": "PHY 101",
+      "course_title": "General Physics I (Mechanics)",
+      "credit_unit": 3,
+      "score": 71,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        675,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 9,
+      "course_code": "GST 101",
+      "course_title": "Use of English and Communication",
+      "credit_unit": 2,
+      "score": 87,
+      "grade": "A",
+      "grade_points": 10.0,
+      "bbox": [
+        60,
+        720,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 10,
+      "course_code": "CSC 303",
+      "course_title": "Operating Systems",
+      "credit_unit": 3,
+      "score": 77,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        765,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 11,
+      "course_code": "MTH 101",
+      "course_title": "Elementary Mathematics I (Calculus)",
+      "credit_unit": 3,
+      "score": 78,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        810,
+        1080,
+        45
+      ]
+    },
+    {
+      "sn": 12,
+      "course_code": "CSC 301",
+      "course_title": "Data Structures & Algorithms",
+      "credit_unit": 3,
+      "score": 86,
+      "grade": "A",
+      "grade_points": 15.0,
+      "bbox": [
+        60,
+        855,
+        1080,
+        45
+      ]
+    }
+  ]
+}

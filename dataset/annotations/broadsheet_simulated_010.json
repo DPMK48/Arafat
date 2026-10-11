@@ -1,0 +1,1399 @@
+{
+  "page_id": "broadsheet_simulated_010",
+  "image_file": "broadsheet_simulated_010.png",
+  "document_type": "result_broadsheet",
+  "category": "simulated",
+  "session": "2021/2022",
+  "semester": "Second Semester",
+  "faculty": "Faculty of Computing",
+  "department": "Department of Computer Science",
+  "records": [
+    {
+      "sn": 1,
+      "reg_no": "19/56928U/1",
+      "reg_no_bbox": [
+        90,
+        205,
+        140,
+        42
+      ],
+      "student_name": "ALI, CHIDIEBERE",
+      "student_name_bbox": [
+        230,
+        205,
+        290,
+        42
+      ],
+      "gpa": 4.08,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 81,
+          "grade": "A",
+          "bbox": [
+            520,
+            205,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 55,
+          "grade": "C",
+          "bbox": [
+            690,
+            205,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 56,
+          "grade": "C",
+          "bbox": [
+            860,
+            205,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 79,
+          "grade": "A",
+          "bbox": [
+            1030,
+            205,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 85,
+          "grade": "A",
+          "bbox": [
+            1200,
+            205,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 2,
+      "reg_no": "22/48808U/1",
+      "reg_no_bbox": [
+        90,
+        247,
+        140,
+        42
+      ],
+      "student_name": "ADEBAYO, NGOZI",
+      "student_name_bbox": [
+        230,
+        247,
+        290,
+        42
+      ],
+      "gpa": 2.46,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 92,
+          "grade": "A",
+          "bbox": [
+            520,
+            247,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 42,
+          "grade": "E",
+          "bbox": [
+            690,
+            247,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 49,
+          "grade": "D",
+          "bbox": [
+            860,
+            247,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 46,
+          "grade": "D",
+          "bbox": [
+            1030,
+            247,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 56,
+          "grade": "C",
+          "bbox": [
+            1200,
+            247,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 3,
+      "reg_no": "18/54920U/1",
+      "reg_no_bbox": [
+        90,
+        289,
+        140,
+        42
+      ],
+      "student_name": "SANI, CHIDIEBERE",
+      "student_name_bbox": [
+        230,
+        289,
+        290,
+        42
+      ],
+      "gpa": 4.08,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 55,
+          "grade": "C",
+          "bbox": [
+            520,
+            289,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 82,
+          "grade": "A",
+          "bbox": [
+            690,
+            289,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 77,
+          "grade": "A",
+          "bbox": [
+            860,
+            289,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 69,
+          "grade": "B",
+          "bbox": [
+            1030,
+            289,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 50,
+          "grade": "C",
+          "bbox": [
+            1200,
+            289,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 4,
+      "reg_no": "20/40635U/1",
+      "reg_no_bbox": [
+        90,
+        331,
+        140,
+        42
+      ],
+      "student_name": "ADAMU, YUSUF",
+      "student_name_bbox": [
+        230,
+        331,
+        290,
+        42
+      ],
+      "gpa": 2.08,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 72,
+          "grade": "A",
+          "bbox": [
+            520,
+            331,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 39,
+          "grade": "F",
+          "bbox": [
+            690,
+            331,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 49,
+          "grade": "D",
+          "bbox": [
+            860,
+            331,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 44,
+          "grade": "E",
+          "bbox": [
+            1030,
+            331,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 56,
+          "grade": "C",
+          "bbox": [
+            1200,
+            331,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 5,
+      "reg_no": "20/44097U/1",
+      "reg_no_bbox": [
+        90,
+        373,
+        140,
+        42
+      ],
+      "student_name": "SANI, OLUWASEUN",
+      "student_name_bbox": [
+        230,
+        373,
+        290,
+        42
+      ],
+      "gpa": 2.08,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 84,
+          "grade": "A",
+          "bbox": [
+            520,
+            373,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 38,
+          "grade": "F",
+          "bbox": [
+            690,
+            373,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 52,
+          "grade": "C",
+          "bbox": [
+            860,
+            373,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 43,
+          "grade": "E",
+          "bbox": [
+            1030,
+            373,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 47,
+          "grade": "D",
+          "bbox": [
+            1200,
+            373,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 6,
+      "reg_no": "18/56173U/1",
+      "reg_no_bbox": [
+        90,
+        415,
+        140,
+        42
+      ],
+      "student_name": "EZE, EMMANUEL",
+      "student_name_bbox": [
+        230,
+        415,
+        290,
+        42
+      ],
+      "gpa": 4.15,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 64,
+          "grade": "B",
+          "bbox": [
+            520,
+            415,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 57,
+          "grade": "C",
+          "bbox": [
+            690,
+            415,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 88,
+          "grade": "A",
+          "bbox": [
+            860,
+            415,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 89,
+          "grade": "A",
+          "bbox": [
+            1030,
+            415,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 69,
+          "grade": "B",
+          "bbox": [
+            1200,
+            415,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 7,
+      "reg_no": "20/55194U/1",
+      "reg_no_bbox": [
+        90,
+        457,
+        140,
+        42
+      ],
+      "student_name": "ADAMU, OLUWASEUN",
+      "student_name_bbox": [
+        230,
+        457,
+        290,
+        42
+      ],
+      "gpa": 3.08,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 59,
+          "grade": "C",
+          "bbox": [
+            520,
+            457,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 43,
+          "grade": "E",
+          "bbox": [
+            690,
+            457,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 91,
+          "grade": "A",
+          "bbox": [
+            860,
+            457,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 86,
+          "grade": "A",
+          "bbox": [
+            1030,
+            457,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 47,
+          "grade": "D",
+          "bbox": [
+            1200,
+            457,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 8,
+      "reg_no": "18/48732U/1",
+      "reg_no_bbox": [
+        90,
+        499,
+        140,
+        42
+      ],
+      "student_name": "BELLO, KABIR",
+      "student_name_bbox": [
+        230,
+        499,
+        290,
+        42
+      ],
+      "gpa": 3.77,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 72,
+          "grade": "A",
+          "bbox": [
+            520,
+            499,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 68,
+          "grade": "B",
+          "bbox": [
+            690,
+            499,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 49,
+          "grade": "D",
+          "bbox": [
+            860,
+            499,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 50,
+          "grade": "C",
+          "bbox": [
+            1030,
+            499,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 91,
+          "grade": "A",
+          "bbox": [
+            1200,
+            499,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 9,
+      "reg_no": "20/52503U/1",
+      "reg_no_bbox": [
+        90,
+        541,
+        140,
+        42
+      ],
+      "student_name": "ABUBAKAR, ARAFAT",
+      "student_name_bbox": [
+        230,
+        541,
+        290,
+        42
+      ],
+      "gpa": 4.38,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 87,
+          "grade": "A",
+          "bbox": [
+            520,
+            541,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 83,
+          "grade": "A",
+          "bbox": [
+            690,
+            541,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 53,
+          "grade": "C",
+          "bbox": [
+            860,
+            541,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 62,
+          "grade": "B",
+          "bbox": [
+            1030,
+            541,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 87,
+          "grade": "A",
+          "bbox": [
+            1200,
+            541,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 10,
+      "reg_no": "21/48099U/1",
+      "reg_no_bbox": [
+        90,
+        583,
+        140,
+        42
+      ],
+      "student_name": "ADAMU, YAHAYA",
+      "student_name_bbox": [
+        230,
+        583,
+        290,
+        42
+      ],
+      "gpa": 3.54,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 50,
+          "grade": "C",
+          "bbox": [
+            520,
+            583,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 67,
+          "grade": "B",
+          "bbox": [
+            690,
+            583,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 85,
+          "grade": "A",
+          "bbox": [
+            860,
+            583,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 87,
+          "grade": "A",
+          "bbox": [
+            1030,
+            583,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 44,
+          "grade": "E",
+          "bbox": [
+            1200,
+            583,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 11,
+      "reg_no": "22/46830U/1",
+      "reg_no_bbox": [
+        90,
+        625,
+        140,
+        42
+      ],
+      "student_name": "IDRIS, HALIMA",
+      "student_name_bbox": [
+        230,
+        625,
+        290,
+        42
+      ],
+      "gpa": 3.62,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 81,
+          "grade": "A",
+          "bbox": [
+            520,
+            625,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 57,
+          "grade": "C",
+          "bbox": [
+            690,
+            625,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 58,
+          "grade": "C",
+          "bbox": [
+            860,
+            625,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 48,
+          "grade": "D",
+          "bbox": [
+            1030,
+            625,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 78,
+          "grade": "A",
+          "bbox": [
+            1200,
+            625,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 12,
+      "reg_no": "18/58008U/1",
+      "reg_no_bbox": [
+        90,
+        667,
+        140,
+        42
+      ],
+      "student_name": "ABUBAKAR, USMAN",
+      "student_name_bbox": [
+        230,
+        667,
+        290,
+        42
+      ],
+      "gpa": 3.69,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 54,
+          "grade": "C",
+          "bbox": [
+            520,
+            667,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 68,
+          "grade": "B",
+          "bbox": [
+            690,
+            667,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 78,
+          "grade": "A",
+          "bbox": [
+            860,
+            667,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 57,
+          "grade": "C",
+          "bbox": [
+            1030,
+            667,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 50,
+          "grade": "C",
+          "bbox": [
+            1200,
+            667,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 13,
+      "reg_no": "20/41706U/1",
+      "reg_no_bbox": [
+        90,
+        709,
+        140,
+        42
+      ],
+      "student_name": "ADEBAYO, KHADIJA",
+      "student_name_bbox": [
+        230,
+        709,
+        290,
+        42
+      ],
+      "gpa": 3.46,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 45,
+          "grade": "D",
+          "bbox": [
+            520,
+            709,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 53,
+          "grade": "C",
+          "bbox": [
+            690,
+            709,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 78,
+          "grade": "A",
+          "bbox": [
+            860,
+            709,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 65,
+          "grade": "B",
+          "bbox": [
+            1030,
+            709,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 58,
+          "grade": "C",
+          "bbox": [
+            1200,
+            709,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 14,
+      "reg_no": "18/45484U/1",
+      "reg_no_bbox": [
+        90,
+        751,
+        140,
+        42
+      ],
+      "student_name": "NWOSU, BLESSING",
+      "student_name_bbox": [
+        230,
+        751,
+        290,
+        42
+      ],
+      "gpa": 2.85,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 45,
+          "grade": "D",
+          "bbox": [
+            520,
+            751,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 63,
+          "grade": "B",
+          "bbox": [
+            690,
+            751,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 88,
+          "grade": "A",
+          "bbox": [
+            860,
+            751,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 53,
+          "grade": "C",
+          "bbox": [
+            1030,
+            751,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 38,
+          "grade": "F",
+          "bbox": [
+            1200,
+            751,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 15,
+      "reg_no": "18/59040U/1",
+      "reg_no_bbox": [
+        90,
+        793,
+        140,
+        42
+      ],
+      "student_name": "SHEHU, OLUWASEUN",
+      "student_name_bbox": [
+        230,
+        793,
+        290,
+        42
+      ],
+      "gpa": 4.15,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 82,
+          "grade": "A",
+          "bbox": [
+            520,
+            793,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 76,
+          "grade": "A",
+          "bbox": [
+            690,
+            793,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 47,
+          "grade": "D",
+          "bbox": [
+            860,
+            793,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 61,
+          "grade": "B",
+          "bbox": [
+            1030,
+            793,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 87,
+          "grade": "A",
+          "bbox": [
+            1200,
+            793,
+            170,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "sn": 16,
+      "reg_no": "18/48150U/1",
+      "reg_no_bbox": [
+        90,
+        835,
+        140,
+        42
+      ],
+      "student_name": "SHEHU, ZAINAB",
+      "student_name_bbox": [
+        230,
+        835,
+        290,
+        42
+      ],
+      "gpa": 4.08,
+      "results": [
+        {
+          "course_code": "GST 102",
+          "course_title": "Philosophy and Logic",
+          "credit_unit": 2,
+          "score": 43,
+          "grade": "E",
+          "bbox": [
+            520,
+            835,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "PHY 101",
+          "course_title": "General Physics I (Mechanics)",
+          "credit_unit": 3,
+          "score": 81,
+          "grade": "A",
+          "bbox": [
+            690,
+            835,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 102",
+          "course_title": "Introduction to Problem Solving",
+          "credit_unit": 3,
+          "score": 77,
+          "grade": "A",
+          "bbox": [
+            860,
+            835,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "GST 101",
+          "course_title": "Use of English and Communication",
+          "credit_unit": 2,
+          "score": 59,
+          "grade": "C",
+          "bbox": [
+            1030,
+            835,
+            170,
+            42
+          ]
+        },
+        {
+          "course_code": "CSC 203",
+          "course_title": "Discrete Mathematical Structures",
+          "credit_unit": 3,
+          "score": 86,
+          "grade": "A",
+          "bbox": [
+            1200,
+            835,
+            170,
+            42
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course_code": "GST 102",
+      "course_title": "Philosophy and Logic",
+      "credit_unit": 2
+    },
+    {
+      "course_code": "PHY 101",
+      "course_title": "General Physics I (Mechanics)",
+      "credit_unit": 3
+    },
+    {
+      "course_code": "CSC 102",
+      "course_title": "Introduction to Problem Solving",
+      "credit_unit": 3
+    },
+    {
+      "course_code": "GST 101",
+      "course_title": "Use of English and Communication",
+      "credit_unit": 2
+    },
+    {
+      "course_code": "CSC 203",
+      "course_title": "Discrete Mathematical Structures",
+      "credit_unit": 3
+    }
+  ]
+}
